@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@supports (background-clip: text){
+    h1 {
+        font-size: 72px;
+        background-image: linear-gradient(90deg, #ff003c, #1260f0);
+        background-clip: text;
+        color: transparent;
+        font-weight: 700;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+
+}
