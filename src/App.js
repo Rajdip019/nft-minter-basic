@@ -191,11 +191,13 @@ const App = () => {
           <p className="text-gray-300">BTECH 1st Year, Heritage Institution of Technology</p>
         </div>
         </div>
+        <a href="https://github.com/Rajdip019/nft-minter-basic">
         <button
       className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 px-10 py-5  rounded-full hover:bg-pink-800 hover:scale-105 active:scale-95 transition-all font-bold text-white text-xl mx-auto my-20 flex w-4/12"
     >
     <p className="mx-auto">GitHub Repo Link</p> 
     </button>
+    </a>
       </div>
        </>
     ) : (
